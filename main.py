@@ -5,7 +5,10 @@ app.config['DEBUG']=True
 
 @app.route('/')
 def index():
-  CSS_MAIN = url_for('static', filename='style.css')
-  return render_template('index.html', style=CSS_MAIN)
+  return render_template('sign-up.html')
+
+@app.route('/', methods=["POST"])
+def validation():
+  return render_template('sign-up.html')
 
 app.run()

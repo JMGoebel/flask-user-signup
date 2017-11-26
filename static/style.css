@@ -1,3 +1,28 @@
-p {
-  color: red;
+
+form {
+  margin: 20px;
+  padding: 40px;
+  background-color: teal;
+  width: 350px;
+}
+
+label {
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: right;
+  display: inline-block;
+  width: 150px;
+  display: inline-block;
+}
+
+input {
+  margin: 5px 0;
+}
+
+input[type=submit] {
+  display: block;
+  width: 100px;
+  height: 40px;
+  margin: 20px auto;
 }

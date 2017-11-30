@@ -1,9 +1,22 @@
+body {
+  background-color: #607D8B;
+}
 
 form {
-  margin: 20px;
+  margin: 100px auto;
   padding: 40px;
-  background-color: teal;
+  background-color: #757575;
   width: 350px;
+}
+
+.error {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  font-family: sans-serif;
+  background-color: #D32F2F;
+  color: #212121;
 }
 
 label {
